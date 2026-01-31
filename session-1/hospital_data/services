@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "Emergency",
+    "content": "A 24/7 Emergency department staffed with rapid response teams for trauma, strokes, cardiac arrests, poisoning, and accident care."
+  },
+  {
+    "topic": "OPD",
+    "content": "Outpatient services across all departments with appointment scheduling, follow-up consultations, diagnostic testing and patient education."
+  },
+  {
+    "topic": "Inpatient Wards",
+    "content": "General, semi-private and private wards with nursing care, dietary support, daily rounds by treating physicians and allied health professionals."
+  },
+  {
+    "topic": "ICU Services",
+    "content": "Multiple intensive care units including medical ICU, surgical ICU, neonatal ICU (NICU) and cardiac ICU equipped with advanced monitoring systems."
+  },
+  {
+    "topic": "Surgical Services",
+    "content": "Includes general surgery, laparoscopic procedures, trauma surgeries, transplant support, and day-care minimal invasive interventions."
+  },
+  {
+    "topic": "Laboratory Services",
+    "content": "24\u00d77 accredited lab performing hematology, pathology, microbiology, biochemistry and histopathology tests with fast turnaround time."
+  },
+  {
+    "topic": "Pharmacy",
+    "content": "In-house pharmacy providing prescription medications, over-the-counter products, patient counseling and safe medication practices."
+  },
+  {
+    "topic": "Rehabilitation & Physiotherapy",
+    "content": "Post-operative and injury rehab, physiotherapy for orthopedic/neuro patients, occupational therapy, and speech therapy."
+  },
+  {
+    "topic": "Preventive Health Packages",
+    "content": "Master health check-ups, annual screenings, cardiology evaluations, cancer screening and lifestyle modification clinics."
+  },
+  {
+    "topic": "Vaccination Clinic",
+    "content": "Provides adult, pediatric and travel-related vaccines under guidance of trained doctors and immunization nurses."
+  }
+]

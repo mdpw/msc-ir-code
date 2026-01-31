@@ -1,0 +1,35 @@
+@prefix : <http://example.org/lung#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LungDisease a rdfs:Class .
+:LungFinding a rdfs:Class .
+
+:Pneumonia a :LungDisease ;
+    rdfs:label "Pneumonia" ;
+    rdfs:comment "Pneumonia is an infection that inflames the air sacs in one or both lungs. On a chest X-ray, it typically appears as a white or hazy area called an 'opacity' or 'consolidation', indicating fluid or pus." .
+
+:Effusion a :LungFinding ;
+    rdfs:label "Effusion" ;
+    rdfs:comment "Pleural effusion is a buildup of excess fluid between the layers of the pleura outside the lungs. On an X-ray, it often appears as a white area, typically at the bottom of the lung, 'blunting' the sharp corner where the diaphragm meets the ribs." .
+
+:NormalLung a rdfs:Class ;
+    rdfs:label "Normal Lung" ;
+    rdfs:comment "A normal chest X-ray shows lungs that are clear and appear black, indicating they are filled with air. The heart shadow and diaphragm borders are sharp and well-defined. There are no signs of abnormal white areas (opacities) or fluid." .
+
+# --- NEWLY ADDED ENTRIES ---
+
+:Atelectasis a :LungFinding ;
+    rdfs:label "Atelectasis" ;
+    rdfs:comment "Atelectasis is the collapse or closure of a part of the lung, resulting in reduced or absent gas exchange. On an X-ray, it may appear as a white, airless area or as a shift of the trachea or heart towards the collapsed area." .
+
+:Consolidation a :LungFinding ;
+    rdfs:label "Consolidation" ;
+    rdfs:comment "Consolidation is a region of lung tissue that has been filled with fluid, pus, or other material, making it appear solid and white on an X-ray. It is a key sign of pneumonia." .
+
+:Pneumothorax a :LungDisease ;
+    rdfs:label "Pneumothorax" ;
+    rdfs:comment "Pneumothorax is a collapsed lung, caused by air leaking into the space between the lung and the chest wall. On an X-ray, it appears as a very black area (air) with no lung markings, and a visible edge of the collapsed lung." .
+
+:Edema a :LungFinding ;
+    rdfs:label "Edema" ;
+    rdfs:comment "Pulmonary edema is excess fluid in the lungs, often caused by heart failure. On X-rays, it can look like hazy, 'fluffy' opacities, often spreading from the center of the chest." .

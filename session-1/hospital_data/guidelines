@@ -1,0 +1,38 @@
+[
+  {
+    "topic": "Visiting Hours",
+    "content": "General wards: 10 AM \u2013 12 PM and 5 PM \u2013 7 PM daily. ICU timings strictly limited to 4 PM \u2013 5 PM, only one visitor at a time."
+  },
+  {
+    "topic": "COVID & Infection Control",
+    "content": "Masks must be worn within premises. Hand sanitizers are installed at all entry points, PPE use is mandatory in isolation wards, and visitors with fever/cough are discouraged."
+  },
+  {
+    "topic": "Patient Admission",
+    "content": "Please carry valid ID proof, insurance documents (if applicable), and prior medical records. Admission is processed via Admissions Desk on ground floor."
+  },
+  {
+    "topic": "Discharge Process",
+    "content": "Discharge is authorized by treating consultant, patient summary and prescriptions are provided, and billing must be cleared before handing over documents."
+  },
+  {
+    "topic": "Billing & Payments",
+    "content": "Payments are accepted via cash, cards, or online transfers. Insurance/TPA assistance counter is functional 9 AM \u2013 6 PM on weekdays."
+  },
+  {
+    "topic": "Patient Rights",
+    "content": "All patients are entitled to dignity, privacy, confidentiality of records, informed consent, and respectful communication from staff."
+  },
+  {
+    "topic": "Patient Responsibilities",
+    "content": "Provide accurate health information, follow prescribed treatments, respect hospital property, and maintain considerate behavior towards staff and co-patients."
+  },
+  {
+    "topic": "Smoking & Alcohol Policy",
+    "content": "Hospital campus is strictly tobacco- and alcohol-free. Violations may result in fines and reporting to authorities."
+  },
+  {
+    "topic": "Parking & Cafeteria",
+    "content": "Visitor parking is available at basement levels B1 and B2. Cafeteria operates 7 AM \u2013 9 PM with safe, hygienic food options."
+  }
+]

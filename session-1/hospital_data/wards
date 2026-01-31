@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "General Ward",
+    "content": "Economical multi-bed facility with central nursing station, shared restrooms, and round-the-clock care for stable patients."
+  },
+  {
+    "topic": "Semi-Private Ward",
+    "content": "Shared by 2\u20133 patients, air-conditioned rooms with attached washroom, and visiting lounge access."
+  },
+  {
+    "topic": "Private Ward",
+    "content": "Single patient rooms with attached bathrooms, television, visitor seating, higher degree of privacy and optional dietary customization."
+  },
+  {
+    "topic": "ICU",
+    "content": "Critical care unit equipped with ventilators, bedside monitors, infusion pumps, isolation facilities, and dedicated intensivists."
+  },
+  {
+    "topic": "NICU",
+    "content": "Neonatal Intensive Care Unit for premature or critically ill newborns, with incubators, phototherapy, ventilators and trained neonatologists."
+  },
+  {
+    "topic": "Recovery & Day Care Unit",
+    "content": "Short-stay facility for post-operative observation of patients undergoing minor surgeries or diagnostic procedures."
+  }
+]

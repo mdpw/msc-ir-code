@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Dr. Anil Mehra",
+    "specialty": "Cardiology",
+    "experience": "20 years",
+    "qualifications": "MD (Medicine), DM (Cardiology)",
+    "availability": "Mon\u2013Sat, 10 AM \u2013 2 PM",
+    "contact": "cardiology@hospital.org"
+  },
+  {
+    "name": "Dr. Priya Nair",
+    "specialty": "Pediatrics",
+    "experience": "12 years",
+    "qualifications": "MD (Pediatrics), Fellowship in Neonatology",
+    "availability": "Mon\u2013Fri, 9 AM \u2013 1 PM",
+    "contact": "pediatrics@hospital.org"
+  },
+  {
+    "name": "Dr. Suresh Iyer",
+    "specialty": "Orthopedics",
+    "experience": "18 years",
+    "qualifications": "MS (Orthopedics), Fellowship in Joint Replacement",
+    "availability": "Tue\u2013Sat, 3 PM \u2013 6 PM",
+    "contact": "orthopedics@hospital.org"
+  },
+  {
+    "name": "Dr. Kavita Shah",
+    "specialty": "Obstetrics & Gynecology",
+    "experience": "15 years",
+    "qualifications": "MD (Obgyn), Diploma in Laparoscopic Surgery",
+    "availability": "Mon\u2013Sat, 11 AM \u2013 4 PM",
+    "contact": "gynecology@hospital.org"
+  },
+  {
+    "name": "Dr. Rajesh Gupta",
+    "specialty": "Neurology",
+    "experience": "22 years",
+    "qualifications": "DM (Neurology), Fellowship in Stroke Medicine",
+    "availability": "Mon/Wed/Fri, 1 PM \u2013 5 PM",
+    "contact": "neurology@hospital.org"
+  },
+  {
+    "name": "Dr. Neha Verma",
+    "specialty": "Oncology",
+    "experience": "10 years",
+    "qualifications": "MD (Medicine), DM (Medical Oncology)",
+    "availability": "Mon\u2013Fri, 10 AM \u2013 1 PM",
+    "contact": "oncology@hospital.org"
+  }
+]

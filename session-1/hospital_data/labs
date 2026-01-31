@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Pathology",
+    "content": "Performs routine blood counts, urine analysis, tissue biopsy processing, Pap smears and bone marrow examination. Critical values are reported immediately to treating doctors."
+  },
+  {
+    "topic": "Biochemistry",
+    "content": "Analyzes blood glucose, lipid profile, liver/kidney function tests, cardiac enzymes and hormone assays with rapid automated analyzers."
+  },
+  {
+    "topic": "Microbiology",
+    "content": "Handles cultures for bacteria, fungi and viruses, antibiotic sensitivity testing, infection surveillance, and hospital hygiene audits."
+  },
+  {
+    "topic": "Molecular Diagnostics",
+    "content": "Specialized genetic and PCR-based testing for infectious diseases, cancer markers, and personalized medicine guidance."
+  },
+  {
+    "topic": "Blood Bank & Transfusion Services",
+    "content": "Provides safe blood and blood products, with cross-matching, plasma separation and platelet pheresis facilities. Runs 24/7 emergency support."
+  }
+]

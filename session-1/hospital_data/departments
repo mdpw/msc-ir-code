@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "Cardiology",
+    "content": "The Cardiology department offers comprehensive care for patients with heart and vascular conditions. Facilities include ECG, echocardiography, coronary angiography, angioplasty, cardiac ICU, and preventive cardiology clinics."
+  },
+  {
+    "topic": "Pediatrics",
+    "content": "Our Pediatrics unit provides growth monitoring, vaccination clinics, neonatal intensive care, developmental assessments, and treatment of common to complex childhood illnesses."
+  },
+  {
+    "topic": "Orthopedics",
+    "content": "The Orthopedics department manages fractures, joint replacements, spinal surgeries, sports injuries and also runs physiotherapy services for rehabilitation."
+  },
+  {
+    "topic": "Obstetrics & Gynecology",
+    "content": "Our team provides antenatal care, labor and delivery services (including painless delivery), infertility workups, minimally invasive gynecological surgeries, and menopause care."
+  },
+  {
+    "topic": "Neurology",
+    "content": "The Neurology unit evaluates and manages strokes, epilepsy, multiple sclerosis, migraine, and neurodegenerative disorders, with 24/7 stroke response protocols."
+  },
+  {
+    "topic": "Oncology",
+    "content": "The Oncology department delivers chemotherapy, radiation therapy, surgical oncology, palliative care, and counseling support for cancer patients."
+  },
+  {
+    "topic": "Nephrology",
+    "content": "Focused on kidney health, offering dialysis services, renal transplantation support, and management of chronic kidney disease and electrolyte disorders."
+  },
+  {
+    "topic": "Dermatology",
+    "content": "Provides medical and cosmetic services including acne treatment, skin biopsies, dermatologic surgery, and laser therapies for skin rejuvenation."
+  },
+  {
+    "topic": "Psychiatry & Mental Health",
+    "content": "The Psychiatry department offers counseling, psychotherapy, de-addiction services, in-patient psychiatric care, and community mental health programs."
+  },
+  {
+    "topic": "Radiology & Imaging",
+    "content": "Our Radiology department provides diagnostic and interventional imaging: MRI, CT, ultrasound, digital X-rays, mammography and image-guided biopsies."
+  }
+]

@@ -1,0 +1,36 @@
+ipykernel
+
+# Core LangChain and RAG components
+# Core LangChain and RAG components (latest versions)
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+langchain-text-splitters
+# langchain-hub>=0.1.0
+
+# Vector database and embeddings
+faiss-cpu
+sentence-transformers
+
+# Streamlit for web interface
+streamlit
+
+# Additional dependencies
+numpy
+torch
+transformers
+
+# Optional: For GPU support (if available)
+# faiss-gpu==1.7.4
+# torch==2.1.0+cu118
+
+# System dependencies (may need to be installed separately)
+# ollama (install from https://ollama.ai)
+
+matplotlib
+
+duckduckgo-search
+pandas
+
+torchvision

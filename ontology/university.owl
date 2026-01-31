@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-33 "http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-33="http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#lectures -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-33;lectures">
+        <rdfs:domain rdf:resource="&untitled-ontology-33;Lecturer"/>
+        <rdfs:range rdf:resource="&untitled-ontology-33;Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#studies -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-33;studies">
+        <rdfs:range rdf:resource="&untitled-ontology-33;Module"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-33;Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#fname -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-33;fname">
+        <rdfs:domain rdf:resource="&untitled-ontology-33;People"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#lname -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-33;lname">
+        <rdfs:domain rdf:resource="&untitled-ontology-33;People"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#module -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-33;module">
+        <rdfs:domain rdf:resource="&untitled-ontology-33;Module"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#staff_Id -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-33;staff_Id">
+        <rdfs:domain rdf:resource="&untitled-ontology-33;Lecturer"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#stu_Id -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-33;stu_Id">
+        <rdfs:domain rdf:resource="&untitled-ontology-33;Student"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#CS -->
+
+    <owl:Class rdf:about="&untitled-ontology-33;CS">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-33;Module"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-33;Maths"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#Lecturer -->
+
+    <owl:Class rdf:about="&untitled-ontology-33;Lecturer">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-33;People"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-33;Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#Maths -->
+
+    <owl:Class rdf:about="&untitled-ontology-33;Maths">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-33;Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#Module -->
+
+    <owl:Class rdf:about="&untitled-ontology-33;Module"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#People -->
+
+    <owl:Class rdf:about="&untitled-ontology-33;People"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#Student -->
+
+    <owl:Class rdf:about="&untitled-ontology-33;Student">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-33;People"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#CS1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;CS1">
+        <rdf:type rdf:resource="&untitled-ontology-33;CS"/>
+        <module rdf:datatype="&xsd;string">PHP</module>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#CS2 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;CS2">
+        <rdf:type rdf:resource="&untitled-ontology-33;CS"/>
+        <module rdf:datatype="&xsd;string">Oracle</module>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#LECT1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;LECT1">
+        <rdf:type rdf:resource="&untitled-ontology-33;Lecturer"/>
+        <stu_Id rdf:datatype="&xsd;int">1</stu_Id>
+        <fname rdf:datatype="&xsd;string">Kaneeka</fname>
+        <lname rdf:datatype="&xsd;string">Vidanage</lname>
+        <lectures rdf:resource="&untitled-ontology-33;CS1"/>
+        <lectures rdf:resource="&untitled-ontology-33;MATH2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#LECT2 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;LECT2">
+        <rdf:type rdf:resource="&untitled-ontology-33;Lecturer"/>
+        <staff_Id rdf:datatype="&xsd;int">2</staff_Id>
+        <lname rdf:datatype="&xsd;string">Perera</lname>
+        <fname rdf:datatype="&xsd;string">Sam</fname>
+        <lectures rdf:resource="&untitled-ontology-33;CS1"/>
+        <lectures rdf:resource="&untitled-ontology-33;CS2"/>
+        <lectures rdf:resource="&untitled-ontology-33;MATH1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#MATH1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;MATH1">
+        <rdf:type rdf:resource="&untitled-ontology-33;Maths"/>
+        <module rdf:datatype="&xsd;string">Probability</module>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#MATH2 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;MATH2">
+        <rdf:type rdf:resource="&untitled-ontology-33;Maths"/>
+        <module rdf:datatype="&xsd;string">Sets</module>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#STU1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;STU1">
+        <rdf:type rdf:resource="&untitled-ontology-33;Student"/>
+        <lname rdf:datatype="&xsd;string">Attapathu</lname>
+        <fname rdf:datatype="&xsd;string">Sameera</fname>
+        <studies rdf:resource="&untitled-ontology-33;CS2"/>
+        <studies rdf:resource="&untitled-ontology-33;MATH1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asusexpertbook/ontologies/2025/8/untitled-ontology-33#STU2 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-33;STU2">
+        <rdf:type rdf:resource="&untitled-ontology-33;Student"/>
+        <lname rdf:datatype="&xsd;string">Jayasooriya</lname>
+        <fname rdf:datatype="&xsd;string">Sanath</fname>
+        <studies rdf:resource="&untitled-ontology-33;CS1"/>
+        <studies rdf:resource="&untitled-ontology-33;CS2"/>
+        <studies rdf:resource="&untitled-ontology-33;MATH2"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
